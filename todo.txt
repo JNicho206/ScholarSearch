@@ -1,0 +1,23 @@
+Gather list of sources to get papers from
+    - Arxiv
+        - Computer science
+            Subfields = []
+            - Pipeline
+                - Using metadata available on kaggle
+                    Sort filter based on categories mentioned above
+                    Capture ids from filtered articles
+                  
+Using ids from Arxiv
+ - Pipeline
+    - Download paper
+        Use gsutil and id
+    - Use BERT to capture embedding 
+        BERT tokenizer and BERT model
+    - Use embedding to create index and add to existing set of indices
+        faiss library
+        Attach id to index
+    Remove Paper
+    
+
+
+
